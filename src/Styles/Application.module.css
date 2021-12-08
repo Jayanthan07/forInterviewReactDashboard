@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Slabo 27px', serif;
+    overflow-x: hidden;
+}
+
+.Container{
+display:grid;
+grid-template-columns:15% 85%;
+height:100%;
+}
+.SideNav{
+    background-color: rgb(82 82 122);
+    color:white;
+    height:100%;
+}
+.MainContent{
+    background-color: rgb(240,240,247);
+    padding-bottom:20px;
+}
